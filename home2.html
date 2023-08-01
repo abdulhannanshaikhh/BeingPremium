@@ -1,0 +1,679 @@
+<!Doctype html>
+<html lang='en'>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BeingPremium.com</title>
+   <style>
+   .container {
+width:100%;
+border:2px solid brown;
+
+} jk
+header {
+margin:5px;
+ background-color:white;
+margin-bottom:8px;
+}
+.container,header
+{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.container img{
+  margin:10px;
+ width:70px;
+  border-radius: 270px;
+margin-left:30px;
+  border:2px solid brown;
+padding:5px;
+    }
+.container h1 {
+float:right;
+color:brown;
+padding-left:0px;
+font-size:30px;
+margin-top: 30px;
+border-bottom: 1px solid brown;
+       }
+nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+nav ul li {
+margin-left:20px;
+float:right;
+}
+nav ul li a {
+font-size:20px;
+text-decoration:none;
+color:brown;
+}
+nav ul li a:hover{
+border-bottom:2px solid black;
+}
+.container .button a {
+background-color:brown;
+margin-right:100px;
+text-decoration:none;
+color:white;
+font-size:15px;
+padding:8px 20px;
+}
+.container .button a:hover {
+border:2px solid black;
+color:skyblue;
+}
+     #home{
+       border-bottom:2px solid black;
+     }
+.search 
+{
+background-image: url("https://img.freepik.com/premium-photo/generic-brandless-modern-sport-car_110488-1758.jpg");
+background-repeat:no-repeat;
+ background-size: cover;
+background-position: center;
+width:96%;
+padding:30px;
+margin-left:5px;
+}
+.search h1 {
+color:white;
+font-size:40px;
+  margin-left:40px;
+margin-bottom:0px;
+margin-top:0px;
+padding-top:0px;
+}
+.search h3 {
+color:white;
+  margin-left:40px;
+font-size:20px;
+}
+.search a{
+padding:10px 40px;
+  margin-left:40px;
+color:white;
+  background-color: brown;
+border:2px solid white;
+text-decoration:none;
+margin:80px;
+}
+.search a:hover{
+background-color:white;
+color:black;
+}
+.flex-container {
+  display: flex;
+width:100%;
+justify-content:center;
+text-align:center;
+margin:2px;
+margin-top:0px;
+}
+.flex-container > div img{
+margin-top:0px;
+width:100px;
+padding-left:10px;
+}
+.flex-container > div {
+width:114px;
+border:0.2px solid black;
+  border-radius:20px;
+  background-color: #f1f1f1;
+  margin:0px;
+  padding:20px;
+  font-size: 30px;
+}
+.flex-container h2{
+font-size:20px;
+font-weight:bold
+margin-bottom:0px;
+}
+.flex-container p{
+  color:brown;
+  font-weight:bold;
+font-size:15px;
+margin-top:8px;
+}
+.flex-container>div:hover {
+background-color:lightgrey;
+   transform: translateY(-5px);
+}
+.flex-containercars {
+  display: flex;
+width:100%;
+justify-content:center;
+margin:2px;
+margin-top:0px;
+}
+.flex-containercars > div img{
+margin-top:0px;
+width:98%;
+padding:5px;
+}
+.flex-containercars > div {
+width:111%;
+border:0.2px solid black;
+  background-color: #f1f1f1;
+  margin:5px;
+  padding:20px;
+  font-size: 30px;
+}
+.flex-containercars h2{
+margin-top:0px;
+display:inline-block;
+font-size:25px;
+  color:brown;
+font-style:bold;
+margin-bottom:0px;
+}
+.flex-containercars p{
+font-size:18px;
+display:inline-block;
+margin-top:0px;
+margin-bottom:0px;
+}
+.flex-containercars>div:hover {
+background-color:lightgrey;
+   transform: translateY(-5px);
+}
+.flex-containercars>div a{
+border:1px solid black;
+padding:5px 50px;
+text-decoration:none;
+font-size:20px;
+background-color:brown;
+color:white;
+margin:0px;
+margin-bottom:5px;
+}
+   .flex-containercars>div a:hover{
+background-color:white;
+color:black;
+}
+.showall .question a{
+text-decoration:none;
+background-color:black;
+color:white;
+padding:10px 40px;
+border-radius:60px;
+}
+.flip-box-container {
+  display: flex;
+  flex-wrap: nowrap;
+justify-content:center;
+}
+
+.flip-box-container > div {
+  background-color: #f1f1f1;
+  width: 250px;
+  margin: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.flip-box {
+  background-color: transparent;
+  width: 250px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+  background-color: #f1f1f1;
+  color:black
+  margin:20px;
+  transform: rotateX(180deg);
+}
+     .flip-box-back h2{
+       margin:20px;
+       color:brown;
+     }
+   .flex-containerreview {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+    }
+
+    .flex-containerreview>div {
+      background-color:  #f1f1f1;
+      width: 30%;
+      margin: 10px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 30px;
+    }
+
+    .images {
+      display:inline-block;
+      float:left;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      margin-left: 20px;
+      border-radius: 270px;
+      width: 50px;
+      height: 50px;
+    }
+   
+    .flex-containerreview>div p{
+      display:inline-block;
+      margin:10px;
+      color:black;
+      margin-top:0px;
+      font-size:17px;
+    }
+     .flex-containerreview>div .names{
+      display:inline-block;
+       float:left;
+       color:brown;
+      margin-top: 33px;
+      font-size:20px;
+      margin-left:20px;
+    }
+    .checked {
+      display:inline;
+  color: orange;
+      font-size:12px;
+    }
+    .unchecked {
+      display:inline;
+      font-size:12px;
+      color:brown;
+    }
+     .flex-containerreview>div:hover{
+background-color:lightgrey;
+   transform: translateY(-5px);
+}
+     .mails{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+justify-content:center;
+}
+
+.mails > div {
+  background-color: white;
+  width: 30px;
+  margin-left: 20px;
+text-align:center;
+padding:5px;
+border-radius:460px;
+margin:20px;
+}
+
+.linkscontact {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:white;
+}
+
+.linkscontact > div {
+  background-color:white;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  
+}
+.links {
+line-height:30px;
+font-size:20px;
+text-decoration:none;
+color:brown;
+}
+     footer h1{
+       font-size:30px;
+     }
+</style>
+  
+</head>
+<body>
+<header id="headlink">
+<div class="container">
+<div>
+<img src="media/logo.jpg" alt="logo"><h1>Being  Premium</h1>
+  </div>
+<nav>
+<ul>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href=" feedback.html">Feedback</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="reviews.html">Reviews</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="home2.html" id="home">Home</a></li>
+</ul>
+</nav>
+<div class="button">
+<a href="login.html"><i class="fa fa-lock" style="font-size:20px; color:white;"></i> My Account</a>
+</div>
+</div>
+</header><br>
+<div class="search">
+ <br><br>
+<h1>The easiest way to <br>buy and sell cars</h1>
+<h3>Find the right price and dealer</h3><br>
+<a href="#">Learn more</a><br><br><br><br>
+</div><br>
+<center><h1 style="color:brown;"> Our Listed Car Brands </h1></center>
+<br>
+<div class="flex-container" id="listings">
+  <div>
+<img src="https://ik.imagekit.io/egrcxziyv/hypeluxury/rent_audi_r8_3.png">
+<h2>Audi</h2>
+<p>2 Listings</p>
+</div>
+  <div>
+<img src="https://ik.imagekit.io/egrcxziyv/hypeluxury/rent_ford_mustang_gt_3.png">
+<h2>Mustang</h2>
+<p>1 Listings</p>
+</div>
+  <div>
+<img src="https://ik.imagekit.io/egrcxziyv/hypeluxury/rent_maserati_ghibli_3.png">
+<h2>Mesrati</h2>
+<p>1 Listings</p>
+</div>  
+<div>
+<img src="https://ik.imagekit.io/egrcxziyv/hypeluxury/rent_lamborghini_gallardo_3.png">
+<h2> Lamborghini</h2>
+<p>2 Listings</p>
+</div>
+<div>
+<img src="https://ik.imagekit.io/egrcxziyv/hypeluxury/rent_rolls_royce_ghost_1_3.png">
+<h2>Rolls Royce</h2>
+<p>1 Listings</p>
+</div>
+<div>
+<img src="https://ik.imagekit.io/egrcxziyv/hypeluxury/rent_porsche_911_carrera_3.png">
+<h2>Porsche</h2>
+<p>1 Listings</p>
+</div>
+<div>
+<img src="https://ik.imagekit.io/k4wc1vm23h/hypeluxury/bmw23_JqvXffxZg.png">
+<h2>BMW</h2>
+<p>2 Listings</p>
+</div>
+<div>
+<img src="https://ik.imagekit.io/k4wc1vm23h/hypeluxury/Merc-eqs2_v40c1vIkS.png">
+<h2>Mercedes</h2>
+<p>2 Listings</p>
+</div>
+</div>
+<br><center><h1 style="color:brown;">The Car Collection</h1></center><br>
+<div class="flex-containercars" id="collections">
+  <div>
+<img src="https://th.bing.com/th/id/R.b278d38570ad37c77bf8d860b0e02791?rik=dnN0E1YYUYZf8Q&riu=http%3a%2f%2fgomotors.net%2fphotos%2fc8%2f12%2faudi-r8-quattro-2006-in-new-york-city_12ad4.jpg%3fi%3fi&ehk=hhQZ%2bqzL3JFOxODsOTjkSUXAFCzadQcYsAELKhMRyEQ%3d&risl=&pid=ImgRaw&r=0">
+<h2>Audi</h2> <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Audi R8</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i> 25000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Sports &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+  <div>
+<img src="https://cdn.motor1.com/images/mgl/2kVbp/s1/2018-ford-mustang-gt-pettys-garage-king-premier-edition.jpg">
+<h2>Mustang</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Mustang gt</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i> </i> 20000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Muscle &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+  <div>
+<img src="https://www.hdcarwallpapers.com/walls/maserati_ghibli_hybrid_gransport_2020_4k-HD.jpg">
+<h2>Maserati</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Maserati ghibli</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  34000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Sedan &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Diesel</p>
+<center><br><a href="#">Rent</a></center>
+</div>  
+<div>
+<img src="https://th.bing.com/th/id/OIP.8Eg_CW8qomq2WYP6vTlchwHaEK?pid=ImgDet&rs=1">
+<h2>Lamborghini</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Lamborghini Aventador</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  27000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Sports &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+</div>
+<div class="flex-containercars">
+<div>
+<img src="https://www.motorious.com/content/images/2020/07/Motorious--30.jpg">
+<h2>Rolls Royce</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Rolls Royce Ghost</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  40000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Luxury &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+<div>
+<img src="https://th.bing.com/th/id/OIP.Vb8M4xN1LrzzD0KZ8_2C6AHaEK?pid=ImgDet&rs=1">
+<h2>Porsche</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Porsche Carrera 911</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>   35000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Sports &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+<div>
+<img src="https://autonexa.com/wp-content/uploads/2020/05/BMW-M3-Exterior-119389.jpg">
+ <h2>BMW</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>BMW M3</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  26000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Sedan &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+<div>
+<img src="https://backiee.com/static/wpdb/wallpapers/3840x2160/263317.jpg">
+<h2>Mercedes</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Mercedes Maybach 6</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  34000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Luxury &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Electric</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+</div>
+</div><br><br>
+<div class="showall">
+<div class="question" onclick="toggleAnswer('answer')"><center><a href="#flex">Show all</a></center></div><br><br>
+<div class="answer" id="answer">
+<div class="flex-containercars">
+<div>
+<img src="https://th.bing.com/th/id/OIP.6d1eIf-SpiQ9ixM6OfJoLgHaEK?pid=ImgDet&rs=1">
+<h2>BMW</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>BMW I8</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  40000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Luxury &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+<div>
+<img src="https://pictures.topspeed.com/IMG/jpg/201808/audi-pb18-e-tron-con-35.jpg">
+<h2>Audi</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Audi PB18</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>   35000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Sports &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+<div>
+<img src="https://th.bing.com/th/id/OIP.08R_JzcCWng58n88lfqYZAHaEK?pid=ImgDet&rs=1">
+ <h2>Lamborghini</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Lamborghini Gallardo</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  26000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Sedan &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Petrol</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+<div>
+<img src="https://th.bing.com/th/id/R.b64d1b8b242ddcaaedf638fd9398db38?rik=uvYWLJSpyRriCQ&riu=http%3a%2f%2fwww.hdnicewallpapers.com%2fWalls%2fBig%2fLamborghini%2fLatest_2018_Mercedes_Benz_S_Class_Car.jpg&ehk=nPfvCeSFfR56zTQ0%2bJGRYG2GN30X%2bIrnxgcCztjQ1WY%3d&risl=&pid=ImgRaw&r=0">
+<h2>Mercedes</h2>  <i class="fa fa-check-circle" style="display:linine-block; font-size:20px;"></i><br>
+<p>Mercedes S Class</p><br>
+<p><i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i>  34000 &nbsp;&nbsp;<i class="fa fa-car" style="font-size:16px; display:inline-block;"></i> Luxury &nbsp;&nbsp;<i class="fa-solid fa-gas-pump"></i> Electric</p>
+<center><br><a href="#">Rent</a></center>
+</div>
+</div>
+</div>
+      </div>
+  <script>
+    function toggleAnswer(id) {
+      var answer = document.getElementById(id);
+      if (answer.style.display === 'none') {
+        answer.style.display = 'block';
+      } else {
+        answer.style.display = 'none';
+      }
+    }
+  </script>
+<br><br>
+</div><br>
+<div class="flip-box-container" id="features">
+  <div>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <i class="fa-solid fa-ribbon" style="font-size:80px;  margin-top:30px; color:brown;"></i><h2 style="margin-top:0px;"><h2>Loyalty</h2>
+    </div>
+    <div class="flip-box-back">
+<h2>Loyalty</h2><p>
+      <p>Our long-term work continues until the job is finished. We establish solid and long-term relationships with all the companies we work with.</p>
+    </div>
+  </div>
+</div>
+</div>
+  <div>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <i class="fa-solid fa-helmet-safety" style="font-size:80px;  margin-top:30px; color:brown;"></i><h2 style="margin-top:0px;"><h2>Realibility</h2>
+    </div>
+    <div class="flip-box-back">
+<h2>Realibility</h2><p>
+      <p>We provide accurate, reliable and ethical services with our expert staff. We apply the fastest and most reliable methods for your brand.</p>
+    </div>
+  </div>
+</div>
+</div>
+  <div>
+<div class="flip-box" id="reviews">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+     <i class="fa-solid fa-thumbs-up" style="font-size:80px;  margin-top:30px; color:brown;"></i><h2 style="margin-top:0px;"><h2>Experience</h2>
+    </div>
+    <div class="flip-box-back">
+<h2>Experience</h2><p>      
+<p>Thanks to the experience we have gained over the years, the specialist provides service with the latest technology devices.</p>
+    </div>
+  </div>
+</div>
+</div>  
+  <div>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+     <i class="fa-solid fa-handshake" style="font-size:80px;  margin-top:30px; color:brown;"></i><h2 style="margin-top:0px;"><h2>Support</h2>
+    </div>
+    <div class="flip-box-back">
+      <h2 style="color:brown;">Support</h2><p>
+We accelerate your business processes by providing professional support. We solve your problems and provide instant solutions.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</center><br>  
+  <h1 style="color:brown;"><center>What are our customers saying?</center</h1>
+  <br><br><div class="flex-containerreview">
+    <div class="content"><img
+        src="https://imageio.forbes.com/specials-images/imageserve/62d599ede3ff49f348f9b9b4/0x0.jpg?format=jpg&crop=821,821,x155,y340,safe&height=416&width=416&fit=bounds"
+        class="images"> 
+    <p class="names">Bill gates</p><br>
+      <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star unchecked"></span>
+<span class="fa fa-star unchecked"></span>
+      <br>
+      <p>Thank you for great service and allowing us to drive a lamborgini.</p>
+    </div>
+      <div><img
+        src="https://cdn.vox-cdn.com/thumbor/lrIaw1J5MnzJ3qxcBQ5E-RAqum0=/0x0:3000x2092/1200x800/filters:focal(1491x217:1971x697)/cdn.vox-cdn.com/uploads/chorus_image/image/63085679/953377496.jpg.0.jpg"
+        class="images">
+      <p class="names">Mark zukerberg</p><br>
+         <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star unchecked"></span>
+<p >Exceeded my expectations in every way.</p>
+      </div>
+      <div><img
+        src="https://cdn.britannica.com/05/236505-050-17B6E34A/Elon-Musk-2022.jpg"
+        class="images">
+      <p class="names">Elon Musk</p><br>
+         <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<p>A class apart - the ultimate luxury car rental experience.</p>
+      </div>
+    </div>
+</center>
+<hr><br>
+  <footer class="footer-section" style="margin-top:-40px;">
+<center><h1 style="font-size:25px; color:grey;">&#169; 2020 Copyright: BeingPremium.com</h1></center>
+<center><h3 style="font-size:20px;color:black;">"What we drive says a lot about who we are"</h3></center>
+ <div class="mails">
+<div>
+<i class="fa-brands fa-instagram" style="font-size:30px; border:2px solid black; border-radius:170px; padding:10px; color:black;"></i>
+</div>
+  <div>
+<i class="fa-brands fa-facebook" style="font-size:30px; border:2px solid black; border-radius:170px; padding:10px;color:black;"></i>
+</div>
+  <div>
+<i class="fa-brands fa-linkedin" style="font-size:30px; border:2px solid black; border-radius:170px; padding:10px;color:black;"></i>
+</div>
+<div>
+<i class="fa-brands fa-github" style="font-size:30px; border:2px solid black; border-radius:170px; padding:10px;color:black;"></i>
+</div>
+<div>
+<i class="fa-brands fa-google" style="font-size:30px; border:2px solid black; border-radius:170px; padding:10px; color:black;"></i>
+</div>
+</div>
+<h1 style="display:inline-block; margin-left:15%;margin-right:20px;color:black;">Sign up for our newsletters</h1><input type="email" placeholder="Enter your mail ID" style="display:inline-block;padding:10px 80px;border:2px solid black;margin-right:20px;"><a href="" style="padding:7px 40px;border:2px solid black;text-decoration:none; font-size:16px;background-color:black; color:white;">Subscribe</a>
+<br><br><div class="linkscontact">
+  <div>
+<center><h2 style="font-size:30px;color:black;margin-bottom:10px;">Contact Info</h2></center>
+<i class="fa-solid fa-phone" style="font-size:20px;display:inline-block;margin-top:0px;"></i> <p style="font-size:20px;display:inline-block;color:black;">11-222-301-7484</p><br>
+<i class="fa-solid fa-envelope" style="font-size:20px;display:inline-block;"></i> <p style="font-size:20px;display:inline-block;color:black;margin-top:0px;">BeingPremium@yahoo.com</p><br>
+<i class="fa-solid fa-location-dot" style="font-size:20px;display:inline-block;"></i> <p style="font-size:20px;display:inline-block;color:black;margin-top:0px;">India</p><br>
+</div>
+  <div class="links">
+<center><h2 style="font-size:30px;">Quick Links</h2></center>
+  <a href="#headlink" class="links">Navigations</i></a><br>
+        <a href="#listings" class="links">Listings</i></a><br>
+        <a href="#collections" class="links">Collections</i></a><br>
+        <a href="#reviews" class="links">reviews</i></a><br>
+        <a href="#features" class="links">Features</i></a><br>
+</div>
+  <div class="team">
+<center><h2 style="font-size:30px;color:black;">Developers Team</h2>
+<p style="font-size:20px;color: black;">Abdul Hannan</p>
+<p style="font-size:20px;color:black;">Muhammed Mehboob</p>
+<p style="font-size:20px;color: black;">Shanaz Naquib</p>
+<p style="font-size:20px;color: black;">Mohammed Zaid</p>
+</div>  
+</div>
+    <br>
+</footer>
+</body>
+</html>

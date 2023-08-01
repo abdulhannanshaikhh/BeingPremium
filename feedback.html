@@ -1,0 +1,191 @@
+<!Doctype html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BeingPremium.com</title>
+  <style>
+         .container {
+width:100%;
+border:2px solid brown;
+
+}
+header {
+margin:5px;
+ background-color:white;
+margin-bottom:8px;
+}
+.container,header
+{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.container img{
+  margin:10px;
+ width:70px;
+  border-radius: 270px;
+margin-left:30px;
+  border:2px solid brown;
+padding:5px;
+    }
+.container h1 {
+float:right;
+color:brown;
+padding-left:0px;
+font-size:30px;
+margin-top: 30px;
+border-bottom: 1px solid brown;
+       }
+nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+nav ul li {
+margin-left:20px;
+float:right;
+}
+nav ul li a {
+font-size:20px;
+text-decoration:none;
+color:brown;
+}
+nav ul li a:hover{
+border-bottom:2px solid black;
+}
+.container .button a {
+background-color:brown;
+margin-right:100px;
+text-decoration:none;
+color:white;
+font-size:15px;
+padding:8px 20px;
+}
+.container .button a:hover {
+border:2px solid black;
+color:skyblue;
+}
+     #feed{
+       border-bottom:2px solid black;
+     }
+    .heading {
+      display: inline;
+    }
+
+    #message {
+      border: none;
+      border-bottom: 2px solid red;
+    }
+
+    #send {
+      padding: 10px 80px;
+      border-radius: 30px;
+      background: linear-gradient(to bottom, darkred 0%, red 100%);
+      color: white;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    h4 {
+      margin-left: 40px;
+    }
+
+    #all {
+      width: 70%;
+      height: 30%;
+      justify-content: center;
+      margin: auto;
+      margin-top: 35px;
+      border: 2px solid red;
+      padding: 30px;
+      border-radius: 30px;
+    }
+
+    #name {
+      padding-right: 70%;
+      margin-left: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border: none;
+      border-bottom: 2px solid red;
+    }
+
+    #email {
+      padding-right: 70%;
+      margin-left: 10px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border: none;
+      border-bottom: 2px solid red;
+    }
+
+    #char {
+      margin-top: 2px;
+    }
+
+    #mes {
+      color: blue;
+font-size:20px;
+    }
+#drop
+ {
+padding:5px;
+}
+  </style>
+</head>
+
+<body>
+  <header>
+<div class="container">
+<div>
+<img src="media/logo.jpg" alt="logo"><h1>Being Premium</h1>
+  </div>
+<nav>
+<ul>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href=" feedback.html" id="feed">Feedback</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="reviews.html">Reviews</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="home2.html">Home</a></li>
+</ul>
+</nav>
+<div class="button">
+<a href="login.html"><i class="fa fa-lock" style="font-size:20px; color:white;"></i> My Account</a>
+</div>
+</div>
+</header>
+  <center>
+    <p id="mes">We would like your feedback to improve our website and services</p>
+<br>
+<select id="drop">
+<option>Suggestion</option>
+<option>Complain</option>
+<option>Complement</option>
+<option>Issue</option>
+<option>Something else...</option>
+</select>
+  </center>
+  <div id="all">
+    <div class="elements">
+      <h3 class="heading">NAME:</h3><input type="text" id="name" placeholder=" Enter your NAME" required><br><br>
+    </div>
+    <div class="elements">
+      <h3 class="heading">EMAIL:</h3><input type="text" id="email" placeholder="Enter your EMAIL" required><br><br>
+    </div>
+    <div class="elements">
+      <h3 class="heading">Message:</h3><br><br><textarea id="message" rows="4" cols="80%"
+        placeholder="Enter your Message" required></textarea><br><br>
+    </div>
+    <h4 id="char">0/500 characters</h4>
+    <div id="button">
+      <center>
+        <a href="thankfeed.html" id="send">Send</a>
+      </center>
+    </div>
+  </div><br><br>
+</body>
+</html>

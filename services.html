@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BeingPremium.com</title>
+  <style>
+     .container {
+width:100%;
+border:2px solid brown;
+
+}
+header {
+margin:5px;
+ background-color:white;
+margin-bottom:8px;
+}
+.container,header
+{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.container img{
+  margin:10px;
+ width:70px;
+  border-radius: 270px;
+margin-left:30px;
+  border:2px solid brown;
+padding:5px;
+    }
+.container h1 {
+float:right;
+color:brown;
+padding-left:0px;
+font-size:30px;
+margin-top: 30px;
+border-bottom: 1px solid brown;
+       }
+nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+nav ul li {
+margin-left:20px;
+float:right;
+}
+nav ul li a {
+font-size:20px;
+text-decoration:none;
+color:brown;
+}
+nav ul li a:hover{
+border-bottom:2px solid black;
+}
+.container .button a {
+background-color:brown;
+margin-right:100px;
+text-decoration:none;
+color:white;
+font-size:15px;
+padding:8px 20px;
+}
+.container .button a:hover {
+border:2px solid black;
+color:skyblue;
+}
+     #services{
+       border-bottom:2px solid black;
+     }
+    p {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    .items h3 {
+      font-size: 30px;
+      color: red;
+    }
+    .items {
+      border: 1px solid black;
+     margin-bottom:5px;
+    }
+    div p {
+      padding:5px;
+      justify-content: center;
+    }
+    #button {
+      padding: 15px 200px;
+      background: linear-gradient(to bottom, red 0%, darkred 100%);
+      color: white;
+      font-size: 15px;
+      border: none;
+      margin-bottom: 30px;
+      text-decoration:none;
+    }
+    #button:hover {
+      background: linear-gradient(to bottom, black 0%, black 100%);
+      color: white;
+      padding: 17px 202px;
+    }
+    section {
+      margin-bottom:50px;
+    }
+    #buttonsend {
+      border:none;
+      background-color: white;
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+<div class="container">
+<div class="image">
+<img src="media/logo.jpg" alt="logo"><h1>Being Premium</h1>
+  </div>
+<nav>
+<ul>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href=" feedback.html">Feedback</a></li>
+<li><a href="services.html" id="services">Services</a></li>
+<li><a href="reviews.html">Reviews</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="home2.html">Home</a></li>
+</ul>
+</nav>
+<div class="button">
+<a href="login.html"><i class="fa fa-lock" style="font-size:20px; color:white;"></i> My Account</a>
+</div>
+</div>
+</header>
+  <section>
+    <div class="items">
+      <center>
+        <h3>Renting</h3>
+        <p>
+          Our luxury car rental service provides you with the opportunity to experience the ultimate in driving luxury
+          and performance. We offer a wide range of high-end vehicles to choose from, including sports cars, SUVs, and
+          luxury sedans, all impeccably maintained and regularly serviced to ensure they are in top condition for your
+          rental. <button onclick="myFunction3()" id="buttonsend">Read more</button>
+<p id="demo1"></p>
+        <script>
+function myFunction3() {
+  document.getElementById("demo1").innerHTML = "Our rental process is designed to be simple and hassle-free, and our team is dedicated to providing exceptional Our rental process is designed to be simple and hassle-free, and our team is dedicated to providing exceptional customer service from start to finish. Whether you need a car for a special occasion, business travel, or just to enjoy the thrill of driving a luxury vehicle, we are here to help. With our luxury car rental service, you can enjoy the freedom of the open road while experiencing the power and elegance of a high-performance luxury car.";
+}
+</script><span>
+      </p>
+      </center>
+    </div>
+    <div class="items">
+      <center>
+        <h3>Leasing</h3>
+        <p>
+          Our luxury car leasing service is designed to provide you with a hassle-free way to drive your dream car. We
+          offer a wide range of high-end vehicles to choose from, including sports cars, luxury sedans, and SUVs. Our
+          leasing process is simple and transparent, and our team is dedicated to providing exceptional customer service
+          throughout your lease. 
+          <button onclick="myFunction1()" id="buttonsend">Read more</button>
+<p id="demo2"></p>
+        <script>
+function myFunction1() {
+  document.getElementById("demo2").innerHTML = "Our rental process is designed to be simple and hassle-free, and our team is dedicated to providing exceptional Our rental process is designed to be simple and hassle-free, and our team is dedicated to providing exceptional customer service from start to finish. Whether you need a car for a special occasion, business travel, or just to enjoy the thrill of driving a luxury vehicle, we are here to help. With our luxury car rental service, you can enjoy the freedom of the open road while experiencing the power and elegance of a high-performance luxury car.";
+}
+</script><span>
+        </p>
+      </center>
+    </div>
+    <div class="items">
+      <center>
+        <h3>Subscription</h3>
+        <p>
+          Our luxury car subscription service is designed to provide you with a flexible and convenient way to drive
+          your dream car. We offer a wide selection of high-end vehicles to choose from, including sports cars, luxury
+          sedans, and SUVs. With our subscription service, you can enjoy the benefits of driving a luxury vehicle
+          without the long-term commitment of ownership or lease. 
+          
+          <button onclick="myFunction()" id="buttonsend">Read more</button>
+<p id="demo3"></p>
+        <script>
+function myFunction() {
+  document.getElementById("demo3").innerHTML = "Our rental process is designed to be simple and hassle-free, and our team is dedicated to providing exceptional Our rental process is designed to be simple and hassle-free, and our team is dedicated to providing exceptional customer service from start to finish. Whether you need a car for a special occasion, business travel, or just to enjoy the thrill of driving a luxury vehicle, we are here to help. With our luxury car rental service, you can enjoy the freedom of the open road while experiencing the power and elegance of a high-performance luxury car.";
+}
+</script><span>
+        </p>
+      </center>
+    </div>
+    <br>
+    <center>
+      <a href="contact.html" id="button">Contact Us</a>
+    </center>
+  </section>
+</body>
+</html>
