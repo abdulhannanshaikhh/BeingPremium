@@ -1,6 +1,6 @@
-BeingPremium
+#BeingPremium
 
-Being Premium is my frontend web development project website that showcases my skills in HTML, CSS, and JavaScript. I have used a variety of techniques to create a visually appealing and user-friendly website.
+In this project, i have harnessed the power of different web technologies and variety of techniques to create a visually appealing and user-friendly interface to create BeingPremium Car Rental website.
 
 Objective: 
 - Showcase frontend web development skills in HTML, CSS, and JavaScript.
